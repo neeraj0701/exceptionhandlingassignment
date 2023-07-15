@@ -1,29 +1,32 @@
-﻿public class Program
+﻿namespace FileException
 {
-    public static void Main()
+    public class Program
     {
-        try
+        public static void Main()
         {
-            using (StreamReader reader = new StreamReader("C:\\Users\\Neeraj Potlapalli\\Documents\\Assignment-3.txt"))
+            try
             {
-                reader.ReadToEnd();
+                using (StreamReader reader = new StreamReader("C:\\Users\\Neeraj Potlapalli\\Documents\\Assignment-3.txt"))
+                {
+                    reader.ReadToEnd();
+                }
             }
-        }
-        catch (FileNotFoundException)
-        {
-            Console.WriteLine("File was not found check with file name");
-        }
-        catch (UnauthorizedAccessException)
-        {
-            Console.WriteLine("you doesn't have access to that file");
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("data is in invalid format");
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e.Message);
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("File was not found check with file name");
+            }
+            catch (UnauthorizedAccessException)
+            {
+                Console.WriteLine("you doesn't have access to that file");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("data is in invalid format");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

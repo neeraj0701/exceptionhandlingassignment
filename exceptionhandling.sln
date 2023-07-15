@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileException", "exception\FileException.csproj", "{6A326486-F901-4C91-9C97-A4E05680972C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputException", "InputException\InputException.csproj", "{2BCC62AF-D65D-419B-AF1C-0ECE5388C4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputException", "InputException\InputException.csproj", "{2BCC62AF-D65D-419B-AF1C-0ECE5388C4B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreadingException", "MultiThreadingException\MultiThreadingException.csproj", "{CF1F6717-CC29-452B-A54A-9E624FF3195D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadingException", "MultiThreadingException\MultiThreadingException.csproj", "{CF1F6717-CC29-452B-A54A-9E624FF3195D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseAccessException", "DatabaseOperationsException\DatabaseAccessException.csproj", "{F0694A34-EF00-4E3F-A73F-CABA4A9582CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccessException", "DatabaseOperationsException\DatabaseAccessException.csproj", "{F0694A34-EF00-4E3F-A73F-CABA4A9582CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkCommunicationExceptions", "NetworkCommunicationExceptions\NetworkCommunicationExceptions.csproj", "{4CF9753A-610D-4A26-8C72-C0D2D04667BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkCommunicationExceptions", "NetworkCommunicationExceptions\NetworkCommunicationExceptions.csproj", "{4CF9753A-610D-4A26-8C72-C0D2D04667BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileException", "FileException\FileException.csproj", "{30CFAD51-2E7C-4A6D-A823-8E783DFC3B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A326486-F901-4C91-9C97-A4E05680972C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A326486-F901-4C91-9C97-A4E05680972C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A326486-F901-4C91-9C97-A4E05680972C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A326486-F901-4C91-9C97-A4E05680972C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2BCC62AF-D65D-419B-AF1C-0ECE5388C4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2BCC62AF-D65D-419B-AF1C-0ECE5388C4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BCC62AF-D65D-419B-AF1C-0ECE5388C4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{4CF9753A-610D-4A26-8C72-C0D2D04667BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CF9753A-610D-4A26-8C72-C0D2D04667BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CF9753A-610D-4A26-8C72-C0D2D04667BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CFAD51-2E7C-4A6D-A823-8E783DFC3B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CFAD51-2E7C-4A6D-A823-8E783DFC3B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CFAD51-2E7C-4A6D-A823-8E783DFC3B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CFAD51-2E7C-4A6D-A823-8E783DFC3B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
